@@ -1,0 +1,177 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FC4B7ED2-D95D-CC24-6A2B-8F88F00AFBDE" name="T_PARCEIRO">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<generatorID>6455AECF-303E-851B-EFD8-A077F3BFACE8</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_parceiro" id="D3C0F305-A434-DEFB-219A-9D31107C5018">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificado do parceiro]]></commentInRDBMS>
+<generatorID>5638B0CA-001D-6F41-3165-9B4F736A7B80</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_chave_pix" id="AD920968-E2AD-A2C7-4CE0-30E0DDB0D513">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Chave para pagamento das comissões]]></commentInRDBMS>
+<generatorID>C33582DE-6F03-5A1F-C351-6C7AE460D833</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_endereço" id="4ECAFBFB-4576-9242-C9E6-580CDF15BFC6">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Endereço da contabilidade]]></commentInRDBMS>
+<generatorID>7FB47278-CFC9-D902-90BA-A43C5C797908</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_telefonel" id="0701F27D-BB67-4C86-3D93-F3E6D18C9C35">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Número de contato, preferência WhatsApp]]></commentInRDBMS>
+<generatorID>0BBC3DF1-86CD-D3FC-FE91-16BCD40722FE</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_cpf_cnpj" id="72F6F973-8099-6F98-367F-2C66CD4B7483">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Número do CNPJ ou CPF]]></commentInRDBMS>
+<generatorID>B974BBBB-DF16-D9E6-278A-37B16FC3DFC1</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_parceiro" id="A7FCD22F-37B1-22BC-D77C-5A0DCBB312A3">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome do parceiro ou contabilidade]]></commentInRDBMS>
+<generatorID>528587DD-AA7D-7371-A7DB-4F94EC1AD593</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_email" id="25132DB0-9080-0BA3-5532-C072806ADEEB">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Endereço de email]]></commentInRDBMS>
+<generatorID>65ABF711-C160-350D-ABF4-BE74C3A957BB</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tp_parceria" id="602C461A-A3B0-C574-4EF2-DAFFC50BF1F4">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Modelo de parceria valido pelo check]]></commentInRDBMS>
+<generatorID>CA98054A-0F26-1430-1F20-C1A04D0E69CB</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="st_ativo" id="A43C3710-CCA7-6C0D-38F5-8C67213B79B5">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-17 23:09:24 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3ED789A5-308D-BF15-E0CA-7506C14A7908" name="T_PARCEIRO_PK">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<generatorID>9EF4517A-7253-73DE-BF96-60FCAC6C311C</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3C0F305-A434-DEFB-219A-9D31107C5018"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ACB83491-6763-7ABD-8A5C-FCA0C36DFFF8" name="UN_T_PARCEIRO_CPF_CNPJ">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-17 23:10:31 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72F6F973-8099-6F98-367F-2C66CD4B7483"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_T_PARCEIRO_PARCERIA" directorySegmentName="seg_0" id="8D808605-1506-5026-FC35-C29B0A1C9FC7">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-17 23:07:29 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<rule><![CDATA[tp_parceria in ('COMISSAO', 'REVENDA', 'REPASSE','LOTE')]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_T_PARCEIRO_EMAIL" directorySegmentName="seg_0" id="DB496334-0751-BF8C-288C-476AE3C6ED0D">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-17 23:07:44 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<rule><![CDATA[REGEXP_LIKE(ds_email, '^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$')]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_T_PARCEIRO_CPF_CNPJ" directorySegmentName="seg_0" id="897228AA-D158-3DF8-32DC-2A1931745A93">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-17 23:08:30 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<rule><![CDATA[REGEXP_LIKE(nr_cpf_cnpj, '^([0-9]{11}|[0-9]{14})$')]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_T_PARCEIRO_ATIVO" directorySegmentName="seg_0" id="703CC895-DDB7-CA91-4DAB-4E86C9255713">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-17 23:09:01 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<rule><![CDATA[UPPER(st_ativo) IN ('S','N')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

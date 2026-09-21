@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="B724B8BE-DE35-FE33-B05E-8E3BD930369F" mainViewID="376B605F-E156-24D8-48B4-6CF09436C4F1">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-07 23:59:40 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

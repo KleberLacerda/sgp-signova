@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F5C0D177-4C03-D43F-D3EF-7575697EC40F" name="T PARCERIA REVENDA">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-08 23:40:58 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="91C74380-3DAB-AE4B-B329-28992BABC9B5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id parceiro" id="DD995E9E-B31B-1A78-71F4-17521A70CA12">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-08 23:41:39 UTC</createdTime>
+<generatorID>4C5218B1-6B3E-D3F3-485F-566F69A46CF9</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="91C74380-3DAB-AE4B-B329-28992BABC9B5" value="true"/>
+</engineerTo>
+<referedAttribute>5638B0CA-001D-6F41-3165-9B4F736A7B80</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl revenda" id="C1DAB0DC-DF8D-341E-9659-239C595645F3">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-08 23:41:12 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="91C74380-3DAB-AE4B-B329-28992BABC9B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0B83D3CE-7215-E073-074A-BDCD05A43D82" name="T_PARCEIRA__REVENDA_PK">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-08 23:50:25 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="91C74380-3DAB-AE4B-B329-28992BABC9B5" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DD995E9E-B31B-1A78-71F4-17521A70CA12</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

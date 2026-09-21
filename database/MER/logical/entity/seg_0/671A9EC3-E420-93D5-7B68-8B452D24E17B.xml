@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="671A9EC3-E420-93D5-7B68-8B452D24E17B" name="T CLIENTE">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-08 00:21:58 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="91C74380-3DAB-AE4B-B329-28992BABC9B5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id cliente" id="C06FB495-C16C-534C-40DE-12C15DEC621D">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-08 12:20:24 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificado padrão]]></commentInRDBMS>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="91C74380-3DAB-AE4B-B329-28992BABC9B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CPF" id="EB0109FA-0759-E834-62FD-320B06ABD4C7">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-08 00:22:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[Número do CPF]]></commentInRDBMS>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="91C74380-3DAB-AE4B-B329-28992BABC9B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome completo" id="0C57B7EA-F583-AA9A-A58A-11356D21CECF">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-08 00:22:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome completo]]></commentInRDBMS>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="91C74380-3DAB-AE4B-B329-28992BABC9B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt nascimento" id="B675748F-FCD8-C4F6-67AE-8AD54463AB06">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-08 00:23:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data de nascimento]]></commentInRDBMS>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="91C74380-3DAB-AE4B-B329-28992BABC9B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds email" id="796DD6EA-ECD2-0577-2439-8755F1066CB7">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-08 00:23:23 UTC</createdTime>
+<commentInRDBMS><![CDATA[endereço de email]]></commentInRDBMS>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="91C74380-3DAB-AE4B-B329-28992BABC9B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num celular" id="465C27F2-39E3-90F7-60F7-67CD2DBA7F12">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-08 00:23:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[Número de telefone]]></commentInRDBMS>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="91C74380-3DAB-AE4B-B329-28992BABC9B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="conta syn" id="DAE16E20-C791-E64D-D718-DA80C0B81C78">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-08 00:24:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[Conta syn para emissão online]]></commentInRDBMS>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="91C74380-3DAB-AE4B-B329-28992BABC9B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="68B5D14A-9F95-C10B-3FDA-2AEAAB80C640" name="T_CLIENTE_PK">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-08 00:22:27 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="91C74380-3DAB-AE4B-B329-28992BABC9B5" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C06FB495-C16C-534C-40DE-12C15DEC621D</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="7497C0C3-A4CA-3330-31AD-7D221F91C5EB" name="T_CLIENTE_CPF_UN">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:16:46 UTC</createdTime>
+<generatorID>BB93C76C-B051-041B-4192-1B9EE182D5E6</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="91C74380-3DAB-AE4B-B329-28992BABC9B5" value="false"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>EB0109FA-0759-E834-62FD-320B06ABD4C7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

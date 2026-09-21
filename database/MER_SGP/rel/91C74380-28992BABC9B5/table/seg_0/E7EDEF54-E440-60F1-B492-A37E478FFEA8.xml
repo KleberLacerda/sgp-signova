@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E7EDEF54-E440-60F1-B492-A37E478FFEA8" name="T_PARCERIA_REVENDA">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<generatorID>F5C0D177-4C03-D43F-D3EF-7575697EC40F</generatorID>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<ordsAlias>t_parceira__revenda</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_parceiro" id="DAA2982A-8630-F827-838C-C7A8AC8895FD">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<generatorID>DD995E9E-B31B-1A78-71F4-17521A70CA12</generatorID>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="365B6462-FE7A-1881-EF8B-7B42EB4C0594" referredColumn="D3C0F305-A434-DEFB-219A-9D31107C5018"/>
+</associations>
+</Column>
+<Column name="vl_revenda" id="B7C469FB-FA10-A021-2B1C-32C7CFF06CC1">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<generatorID>C1DAB0DC-DF8D-341E-9659-239C595645F3</generatorID>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F90BFA2B-AD2A-2363-B61A-11B993235856" name="T_PARCEIRA__REVENDA_PK">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<generatorID>0B83D3CE-7215-E073-074A-BDCD05A43D82</generatorID>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DAA2982A-8630-F827-838C-C7A8AC8895FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2E495262-254C-0A0D-4FC2-F0BDAE3FFC6D" name="FK_T_PARCERIA_REVENDA_PARCEIRO">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<generatorID>4C5218B1-6B3E-D3F3-485F-566F69A46CF9</generatorID>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DAA2982A-8630-F827-838C-C7A8AC8895FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

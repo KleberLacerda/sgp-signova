@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9B441F17-5456-8A5D-FAA7-3E4D257FA727" name="T EMPRESA">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-08 00:26:49 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="91C74380-3DAB-AE4B-B329-28992BABC9B5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id empresa" id="D68B4F91-87F6-377D-5C56-48399F7611E5">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-08 12:21:10 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador padrão]]></commentInRDBMS>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="91C74380-3DAB-AE4B-B329-28992BABC9B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="T CLIENTE id cliente" id="DA3E5D7E-D2CD-6ED8-AE90-9793E13F0D7E">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-08 12:46:15 UTC</createdTime>
+<generatorID>A2EDE7C8-7A06-D374-F1FA-5FB8A7407FED</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="91C74380-3DAB-AE4B-B329-28992BABC9B5" value="true"/>
+</engineerTo>
+<referedAttribute>C06FB495-C16C-534C-40DE-12C15DEC621D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CNPJ" id="D20702AE-B689-AC7D-AE03-7EE1668D59C4">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-08 00:26:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Número do CNPJ]]></commentInRDBMS>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="91C74380-3DAB-AE4B-B329-28992BABC9B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14 CHAR</dataTypeSize>
+<ownDataTypeParameters>14 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="razao social" id="9361D9F8-C1F4-51B0-9F84-1190B213EFE8">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-08 00:27:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome da empresa na Receita Federal]]></commentInRDBMS>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="91C74380-3DAB-AE4B-B329-28992BABC9B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="65BBF489-92CA-5A26-06E7-2735704564CF" name="T_EMPRESA_PK">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-08 00:27:17 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="91C74380-3DAB-AE4B-B329-28992BABC9B5" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D68B4F91-87F6-377D-5C56-48399F7611E5</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="C0E9C3D4-B1F0-52DC-589F-5FE7DB76170F" name="T_EMPRESA_CNPJ_UN">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:16:46 UTC</createdTime>
+<generatorID>5836C18B-5A66-D220-3529-52BDBBDEF570</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="91C74380-3DAB-AE4B-B329-28992BABC9B5" value="false"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>D20702AE-B689-AC7D-AE03-7EE1668D59C4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

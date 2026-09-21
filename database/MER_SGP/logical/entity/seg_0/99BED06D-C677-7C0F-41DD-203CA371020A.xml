@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="99BED06D-C677-7C0F-41DD-203CA371020A" name="T PARCERIA COMISSAO">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-08 23:39:22 UTC</createdTime>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<engineerTo>
+<item key="91C74380-3DAB-AE4B-B329-28992BABC9B5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id parceiro" id="5C549612-3B5A-E043-5C4F-4839D22FF279">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-08 23:40:09 UTC</createdTime>
+<generatorID>D09EEEBF-5FA5-23DE-AB32-3DAA43E60166</generatorID>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<engineerTo>
+<item key="91C74380-3DAB-AE4B-B329-28992BABC9B5" value="true"/>
+</engineerTo>
+<referedAttribute>5638B0CA-001D-6F41-3165-9B4F736A7B80</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl percentual comissao" id="B4AB68F2-CBDE-2982-EF4F-05B24E989FD8">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-08 23:39:38 UTC</createdTime>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<engineerTo>
+<item key="91C74380-3DAB-AE4B-B329-28992BABC9B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="82FCB7FF-F2DA-F54C-5584-AE2FA0C395C6" name="T_PARCERIA_COMISSAO_PK">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-08 23:50:33 UTC</createdTime>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="91C74380-3DAB-AE4B-B329-28992BABC9B5" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5C549612-3B5A-E043-5C4F-4839D22FF279</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

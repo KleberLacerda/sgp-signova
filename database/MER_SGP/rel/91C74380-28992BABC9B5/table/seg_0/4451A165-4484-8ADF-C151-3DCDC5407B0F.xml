@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4451A165-4484-8ADF-C151-3DCDC5407B0F" name="T_CLIENTE">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<generatorID>671A9EC3-E420-93D5-7B68-8B452D24E17B</generatorID>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cliente" id="C7DD8A37-A1B7-F2F0-5FA8-6A07B914DEDA">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificado padrão]]></commentInRDBMS>
+<generatorID>C06FB495-C16C-534C-40DE-12C15DEC621D</generatorID>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_cpf" id="3EB17C5A-BB08-415A-D991-19781E0FF3A8">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Número do CPF]]></commentInRDBMS>
+<generatorID>EB0109FA-0759-E834-62FD-320B06ABD4C7</generatorID>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_cliente" id="A90F7EED-8063-244A-5FA0-FE1E0352A224">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome completo]]></commentInRDBMS>
+<generatorID>0C57B7EA-F583-AA9A-A58A-11356D21CECF</generatorID>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nascimento" id="26C52296-CB67-8972-E7DA-2848E3438610">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data de nascimento]]></commentInRDBMS>
+<generatorID>B675748F-FCD8-C4F6-67AE-8AD54463AB06</generatorID>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_email" id="C634653B-99EC-8F92-598D-C836E6124CC5">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[endereço de email]]></commentInRDBMS>
+<generatorID>796DD6EA-ECD2-0577-2439-8755F1066CB7</generatorID>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_telefone" id="74AEF4D4-CD06-A16F-C82E-655C83959B6F">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Número de telefone]]></commentInRDBMS>
+<generatorID>465C27F2-39E3-90F7-60F7-67CD2DBA7F12</generatorID>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_conta_syn" id="68582267-FBF2-74E0-95FC-947F03E2E925">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Conta syn para emissão online]]></commentInRDBMS>
+<generatorID>DAE16E20-C791-E64D-D718-DA80C0B81C78</generatorID>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="12E2F002-E7B4-09D6-73A0-857FBA36C6DB" name="T_CLIENTE_PK">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<generatorID>68B5D14A-9F95-C10B-3FDA-2AEAAB80C640</generatorID>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7DD8A37-A1B7-F2F0-5FA8-6A07B914DEDA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5AC62A5F-5A0F-AEBD-8CDB-CE722B170157" name="UN_T_CLIENTE_CPF">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<generatorID>7497C0C3-A4CA-3330-31AD-7D221F91C5EB</generatorID>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3EB17C5A-BB08-415A-D991-19781E0FF3A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="75F2016F-E55F-0CE6-B275-7E9A904321AF" name="UN_T_CLIENTE_EMAIL">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-17 23:55:57 UTC</createdTime>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C634653B-99EC-8F92-598D-C836E6124CC5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_T_CLIENTE_CPF" directorySegmentName="seg_0" id="8342F462-F585-DF7C-3BDF-A170442949EB">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-17 23:34:48 UTC</createdTime>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<rule><![CDATA[REGEXP_LIKE(nr_cpf, '^([0-9]{11})$')]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_T_CLIENTE_EMAIL" directorySegmentName="seg_0" id="6FDA2303-1B27-54B3-63B6-A0A1809769A3">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-17 23:56:09 UTC</createdTime>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<rule><![CDATA[REGEXP_LIKE(ds_email, '^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

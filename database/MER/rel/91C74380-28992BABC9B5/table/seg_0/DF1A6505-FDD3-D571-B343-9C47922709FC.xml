@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DF1A6505-FDD3-D571-B343-9C47922709FC" name="T_PARCERIA_COMISSAO">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<generatorID>99BED06D-C677-7C0F-41DD-203CA371020A</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_parceiro" id="0B99A708-4AD2-3C3C-3952-5AA2A7653D3F">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<generatorID>5C549612-3B5A-E043-5C4F-4839D22FF279</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8DAFCF4F-24E7-439F-FEDF-CF9E16002E0E" referredColumn="D3C0F305-A434-DEFB-219A-9D31107C5018"/>
+</associations>
+</Column>
+<Column name="vl_percentual_comissao" id="77C8F9B2-E8DC-AB4E-2618-16D59D2F39AB">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<generatorID>B4AB68F2-CBDE-2982-EF4F-05B24E989FD8</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6B80D907-51F3-2050-DB08-67F5842D464D" name="T_PARCERIA_COMISSAO_PK">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<generatorID>82FCB7FF-F2DA-F54C-5584-AE2FA0C395C6</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B99A708-4AD2-3C3C-3952-5AA2A7653D3F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5A808F04-BC66-6115-8E61-81FCF7D1F546" name="FK_T_PARCERIA_COMISSAO_PARCEIRO">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<generatorID>D09EEEBF-5FA5-23DE-AB32-3DAA43E60166</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B99A708-4AD2-3C3C-3952-5AA2A7653D3F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

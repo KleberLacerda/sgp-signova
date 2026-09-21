@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CD842B21-735C-17B4-EFA3-06F45D4A8D7C" name="T PARCERIALOTE">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-08 23:17:42 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="91C74380-3DAB-AE4B-B329-28992BABC9B5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id parceiro" id="5EECD92F-01D9-71BE-F5D2-ED7EE52FA883">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-17 23:27:30 UTC</createdTime>
+<generatorID>55727483-1BDF-7E7B-A389-09500F68673B</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="91C74380-3DAB-AE4B-B329-28992BABC9B5" value="true"/>
+</engineerTo>
+<referedAttribute>5638B0CA-001D-6F41-3165-9B4F736A7B80</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id lote" id="EE891946-32B8-8978-B4C9-0B3167F2FD05">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-08 23:17:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador lote]]></commentInRDBMS>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="91C74380-3DAB-AE4B-B329-28992BABC9B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt compra lote" id="65028F8F-E39E-7E80-CA36-CDB7B850F35F">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-08 23:18:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data que foi comprado o lote]]></commentInRDBMS>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="91C74380-3DAB-AE4B-B329-28992BABC9B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qt certificado comprado" id="553ACA30-9CE1-BAE1-5410-198BC2906CF1">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-08 23:18:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[Quantidade de certificados comprados]]></commentInRDBMS>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="91C74380-3DAB-AE4B-B329-28992BABC9B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qt certificado disponivel" id="A60D15BB-45EB-F102-6A95-4D0F42B190F7">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-08 23:19:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[Quantidade de certificado disponivel]]></commentInRDBMS>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="91C74380-3DAB-AE4B-B329-28992BABC9B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4A629196-8A54-78E4-9EA1-CA9B12AD5D11" name="T_PARCERIA_LOTE_PK">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-08 23:18:07 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="91C74380-3DAB-AE4B-B329-28992BABC9B5" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EE891946-32B8-8978-B4C9-0B3167F2FD05</attributeRef>
+<attributeRef>5EECD92F-01D9-71BE-F5D2-ED7EE52FA883</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

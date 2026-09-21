@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EMPRESA CLIENTE FK" directorySegmentName="seg_0" id="A2EDE7C8-7A06-D374-F1FA-5FB8A7407FED">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-08 00:32:55 UTC</createdTime>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<engineerTo>
+<item key="91C74380-3DAB-AE4B-B329-28992BABC9B5" value="true"/>
+</engineerTo>
+<sourcePk>68B5D14A-9F95-C10B-3FDA-2AEAAB80C640</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>671A9EC3-E420-93D5-7B68-8B452D24E17B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9B441F17-5456-8A5D-FAA7-3E4D257FA727</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

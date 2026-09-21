@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="62AE64FF-1C1F-9804-66D6-4476863648BE" name="T_PARCERIALOTE">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<generatorID>CD842B21-735C-17B4-EFA3-06F45D4A8D7C</generatorID>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<ordsAlias>t_lote</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_lote" id="5210F1F3-9EEA-1D8B-71AA-B52F4DF5A8AA">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador lote]]></commentInRDBMS>
+<generatorID>EE891946-32B8-8978-B4C9-0B3167F2FD05</generatorID>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_parceiro" id="83A60447-0EA9-1899-96BF-1A26849E227F">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<generatorID>604A5887-3C00-3E4D-C3B3-C929A03FA86D</generatorID>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A603A2FC-3F72-D387-CB9B-4873671C5309" referredColumn="D3C0F305-A434-DEFB-219A-9D31107C5018"/>
+</associations>
+</Column>
+<Column name="dt_compra_lote" id="58B0CB01-780F-6CFE-96E0-7EB7A568CC0D">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data que foi comprado o lote]]></commentInRDBMS>
+<generatorID>65028F8F-E39E-7E80-CA36-CDB7B850F35F</generatorID>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qt_certificado_comprado" id="C8D66D2D-B478-1A1A-1DB6-6E55EF136D9E">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Quantidade de certificados comprados]]></commentInRDBMS>
+<generatorID>553ACA30-9CE1-BAE1-5410-198BC2906CF1</generatorID>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qt_certificado_disponivel" id="230FD1E0-2503-7FE5-9C96-A03380E1B4E8">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Quantidade de certificado disponivel]]></commentInRDBMS>
+<generatorID>A60D15BB-45EB-F102-6A95-4D0F42B190F7</generatorID>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7E41FE68-38FA-82A3-DF8D-37304488DDE7" name="T_PARCERIA_LOTE_PK">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<generatorID>4A629196-8A54-78E4-9EA1-CA9B12AD5D11</generatorID>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5210F1F3-9EEA-1D8B-71AA-B52F4DF5A8AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AD57EB5E-0F2C-7126-3C4D-7BF8DF6F90B0" name="FK_T_PARCERIA_LOTE_PARCEIRO">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<generatorID>879D46F4-EDCE-2E75-B46D-586D518CA4FA</generatorID>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83A60447-0EA9-1899-96BF-1A26849E227F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

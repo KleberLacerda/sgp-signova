@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E6307C23-EA37-1916-620F-C95C618B6929" containerWithKeyObject="EF03458D-6354-F9BA-5CA2-17165F09FCB7" localFKIndex="63C53D28-D742-F6E2-0B97-18FE4C12EB43" name="FK_T_VENDA_FECHAMENTO">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<generatorID>5C623DB6-9C25-2C41-0927-235AD434D18E</generatorID>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<referredTableLongName>T_FECHAMENTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>29EE6004-E4AC-9DDA-8CA3-AA95579D29E4</referredTableID>
+<keyObject>736077B4-0B7D-94CD-EF00-97749E06168E</keyObject>
+<referredKeyID>736077B4-0B7D-94CD-EF00-97749E06168E</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_fechamento</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

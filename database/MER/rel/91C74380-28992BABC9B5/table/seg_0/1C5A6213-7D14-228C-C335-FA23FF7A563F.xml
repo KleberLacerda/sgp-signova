@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1C5A6213-7D14-228C-C335-FA23FF7A563F" name="T_PARCERIA_REPASSE">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<generatorID>A132AF30-DFFD-E322-5B8C-B43958CF202D</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_parceiro" id="698B29ED-5CDF-79E8-8C43-4866E8C2BDC9">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<generatorID>4CDA2507-6194-B636-EC84-50CE4E1C9457</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B1FA629A-BC2A-DA52-DF14-A841AE95A329" referredColumn="D3C0F305-A434-DEFB-219A-9D31107C5018"/>
+</associations>
+</Column>
+<Column name="frequencia_repasse" id="99C40E3C-96CF-75B7-C2C7-B3E1E617D8BF">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[SEMANAL; MENSAL]]></commentInRDBMS>
+<generatorID>5E5A2EA0-CE1A-74D6-6E6B-246CFE269CEB</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3B017FA3-626F-98F4-AC86-A15A5C0687C9" name="T_PARCERIA_REPASSE_PK">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<generatorID>49374D27-4E22-C527-B937-450A9F5C3D19</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="698B29ED-5CDF-79E8-8C43-4866E8C2BDC9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="64EFD48F-62BD-CAB4-E4A3-5CE9FFA03EA7" name="FK_T_PARCERIA_REPASSE_PARCEIRO">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<generatorID>C2446A5D-03AC-0BFF-5BA0-F25859E12B53</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="698B29ED-5CDF-79E8-8C43-4866E8C2BDC9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_FREQUENCIA_REPASSE" directorySegmentName="seg_0" id="DEA3D199-FE88-A518-390E-FCBC837B25C8">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:36:38 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<rule><![CDATA[frequencia_repasse IN ('SEMANAL','MENSAL')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

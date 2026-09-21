@@ -1,0 +1,314 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EF03458D-6354-F9BA-5CA2-17165F09FCB7" name="T_VENDA">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<generatorID>15C07D24-FE8D-5762-AB26-D1D3A44000D9</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_protocolo_syngular" id="1786FAB1-8F32-1E0F-A6B0-C707289DB258">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Protocolo Syngular]]></commentInRDBMS>
+<generatorID>004B30A8-5AA3-C5D8-1222-BD077E127C8F</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_parceiro" id="E0783FCD-BBF5-410F-F842-98716735DA6F">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<generatorID>6D7842C5-4590-22C2-E4BF-2C39DDC9D140</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="855DB5CF-9FD5-E367-468A-33D87A7A6008" referredColumn="D3C0F305-A434-DEFB-219A-9D31107C5018"/>
+</associations>
+</Column>
+<Column name="id_cliente" id="09D6CB40-F58C-43B5-C6F3-710811B33EF2">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<generatorID>7363F13B-A061-2DE9-328F-3BD0840A460D</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A6C7CAB3-DA39-55FC-F7A6-77FB4B06DE7E" referredColumn="C7DD8A37-A1B7-F2F0-5FA8-6A07B914DEDA"/>
+</associations>
+</Column>
+<Column name="id_certificado" id="384AB65E-D851-1A14-1CA0-6496AEFF7E61">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<generatorID>4177EF19-8C7E-1DA5-822E-F2BA7EF094A0</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="519E7AA7-A84B-59D1-2505-7A0B634F9E51" referredColumn="1F02DAA3-73B6-3AE3-4EBA-C19E41D418D6"/>
+</associations>
+</Column>
+<Column name="id_fechamento" id="92071075-00F8-F03D-EFF6-03D309C614FD">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<generatorID>3FA8A28E-71ED-8A25-2975-091DC7A901D4</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E6307C23-EA37-1916-620F-C95C618B6929" referredColumn="C7C925E8-9617-18BD-A60B-F982B0247E0A"/>
+</associations>
+</Column>
+<Column name="id_empresa" id="71BF47E7-33F1-3CDF-BFFE-92272A4C3BEF">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<generatorID>A2C1B99F-444F-85F3-33E0-24E07C9D17F5</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0601311E-0C56-3379-065B-256CDC0B0AF6" referredColumn="146BA4D8-A4E6-06CD-EAF2-5B22F0CB645A"/>
+</associations>
+</Column>
+<Column name="id_lote" id="63E5048B-C9D5-4792-13D1-62121CA55693">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<generatorID>A864C64F-8942-6CDA-8484-908C4E4172EE</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8086EB38-0273-EC19-8216-F826AEDA2DAF" referredColumn="5210F1F3-9EEA-1D8B-71AA-B52F4DF5A8AA"/>
+</associations>
+</Column>
+<Column name="nr_pedido_venda" id="79379503-80B2-A76A-7C37-5FFF21E506EF">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Pedido CCN, não será obrigátorio pq se mudar de AR o pedido será de outra AR]]></commentInRDBMS>
+<generatorID>4243B11B-D78B-DFA1-DF4C-796E3D8007BA</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_pedido" id="9C6EAE37-4843-1D4B-BDBE-30AA4C6B9AA7">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<comment><![CDATA[Data da compra do certificado]]></comment>
+<generatorID>82E18B6D-D395-B66D-E98B-67D2B903DF62</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_certificado_vendido" id="272AD87C-0970-B487-39E0-8548425249CA">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<generatorID>8F1CD742-23E1-9781-6FB2-7B5F6AC3CA31</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_forma_de_pagamento" id="E272C37E-F57D-43D2-E5C0-3E19866912E1">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Formas de pagamento CREDITO; PIX;  BOLETO]]></commentInRDBMS>
+<generatorID>543C4C17-E2AA-A323-8B1F-0C067F5FEDCD</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tp_atendimento" id="76166310-4A25-1324-5BBD-F506E037678C">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-17 23:38:39 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="st_venda" id="FC3EEF72-F04A-9F1B-888A-F89686D8DCA2">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-17 23:42:50 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0A4C98E2-65DC-8CFB-CA94-3352E72D0FCC" name="T_VENDA_PK">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<generatorID>2BAE328C-2D80-A57C-5104-87244345F996</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1786FAB1-8F32-1E0F-A6B0-C707289DB258"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B2516A51-D7C7-FEA8-F769-92ADB347A598" name="UN_T_VENDA_PEDIDO_VENDA">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-17 23:37:00 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79379503-80B2-A76A-7C37-5FFF21E506EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E0CF9AB4-14EA-1517-B15C-B3CF84678281" name="FK_T_VENDA_PARCERIA_LOTE">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<generatorID>6D741235-5943-7BB7-0B82-3EC4DB49B17B</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63E5048B-C9D5-4792-13D1-62121CA55693"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="15FC11C5-CE4A-1076-FD94-245948F79239" name="FK_T_VENDA_PARCEIRO">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<generatorID>D58C1F9A-AAC0-77FD-AF23-006F7C018011</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E0783FCD-BBF5-410F-F842-98716735DA6F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="61C5E117-3A45-05BC-50D6-4A91DB563A49" name="FK_T_VENDA_CERTIFICADO">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<generatorID>0AC07167-DE4D-27F6-6252-8EF046A41EEA</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="384AB65E-D851-1A14-1CA0-6496AEFF7E61"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CDB8551A-F51E-07C6-EA66-FD5AF2E8BC6E" name="FK_T_VENDA_CLIENTE">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<generatorID>88D4D1D7-2237-5D9A-55DA-A56E35A33837</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09D6CB40-F58C-43B5-C6F3-710811B33EF2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BB728C2B-2E4B-9E9E-60CF-FDC964F860A4" name="FK_T_VENDA_EMPRESA">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<generatorID>05D3B4A7-BAA0-FEDD-933B-DE73E04686F1</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71BF47E7-33F1-3CDF-BFFE-92272A4C3BEF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="63C53D28-D742-F6E2-0B97-18FE4C12EB43" name="FK_T_VENDA_FECHAMENTO">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<generatorID>5C623DB6-9C25-2C41-0927-235AD434D18E</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="92071075-00F8-F03D-EFF6-03D309C614FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_FORMA_PAGAMENTO" directorySegmentName="seg_0" id="A4C3782F-68CC-E9B4-8937-B93B94902141">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:36:03 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<rule><![CDATA[ds_forma_de_pagamento IN ('PIX','BOLETO','CREDITO')]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_T_VENDA_TP_ATENDIMENTO" directorySegmentName="seg_0" id="DA9CEEC8-EEAD-4FAC-9E13-3FE35AB16477">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-17 23:40:31 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<rule><![CDATA[tp_atendimento in ('VIDEO', 'ONLINE', 'PRESENCIAL')]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_T_VENDA_STATUS" directorySegmentName="seg_0" id="17FC6C09-C25C-6685-FB02-3198A6CB6790">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-17 23:41:34 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<rule><![CDATA[st_venda in ('FINALIZADA', 'PENDENTE', 'CANCELADA')]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_T_VENDA_PRECO" directorySegmentName="seg_0" id="52FF0D9D-284E-74FD-6135-E0B81571EBE4">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-18 00:08:30 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<rule><![CDATA[vl_certificado_vendido > 0]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

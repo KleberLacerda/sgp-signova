@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A603A2FC-3F72-D387-CB9B-4873671C5309" containerWithKeyObject="62AE64FF-1C1F-9804-66D6-4476863648BE" localFKIndex="AD57EB5E-0F2C-7126-3C4D-7BF8DF6F90B0" name="FK_T_PARCERIA_LOTE_PARCEIRO">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<generatorID>879D46F4-EDCE-2E75-B46D-586D518CA4FA</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<referredTableLongName>T_PARCEIRO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FC4B7ED2-D95D-CC24-6A2B-8F88F00AFBDE</referredTableID>
+<keyObject>3ED789A5-308D-BF15-E0CA-7506C14A7908</keyObject>
+<referredKeyID>3ED789A5-308D-BF15-E0CA-7506C14A7908</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_parceiro</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

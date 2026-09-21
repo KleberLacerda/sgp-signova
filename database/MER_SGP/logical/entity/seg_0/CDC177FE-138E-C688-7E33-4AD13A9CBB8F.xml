@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CDC177FE-138E-C688-7E33-4AD13A9CBB8F" name="T FECHAMENTO">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-08 22:58:49 UTC</createdTime>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<engineerTo>
+<item key="91C74380-3DAB-AE4B-B329-28992BABC9B5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id fechamento" id="FF40C3DB-83BA-E3AF-3D2D-BF20A71B43A8">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-08 22:59:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador de cada fechamento]]></commentInRDBMS>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<engineerTo>
+<item key="91C74380-3DAB-AE4B-B329-28992BABC9B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id parceiro" id="46B0807F-D152-D7D6-9EA0-60D10277BE8E">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-08 23:34:00 UTC</createdTime>
+<generatorID>D44E979E-2941-245D-3935-3658CEC4FFB3</generatorID>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<engineerTo>
+<item key="91C74380-3DAB-AE4B-B329-28992BABC9B5" value="true"/>
+</engineerTo>
+<referedAttribute>5638B0CA-001D-6F41-3165-9B4F736A7B80</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt pagamento comissao" id="E248D6F0-4645-EFEE-504D-4ADF7BF7080A">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-08 23:00:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[Dia do pagamento da comissão]]></commentInRDBMS>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<engineerTo>
+<item key="91C74380-3DAB-AE4B-B329-28992BABC9B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl pago" id="F1110AC8-E023-6C0A-2EA8-AF0E97D2863B">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-08 23:00:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[Valor pago para contabilidade ]]></commentInRDBMS>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<engineerTo>
+<item key="91C74380-3DAB-AE4B-B329-28992BABC9B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tp parceria" id="AAE690F4-3C11-8D19-B64C-C1B89E253899">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-08 23:03:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[COMISSÃO; REVENDA; REPASSE; LOTE]]></commentInRDBMS>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<engineerTo>
+<item key="91C74380-3DAB-AE4B-B329-28992BABC9B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2EFF3A54-3F0D-2682-CD85-7ED62BA408BF" name="T_FECHAMENTO_PK">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-08 22:59:46 UTC</createdTime>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="91C74380-3DAB-AE4B-B329-28992BABC9B5" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FF40C3DB-83BA-E3AF-3D2D-BF20A71B43A8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

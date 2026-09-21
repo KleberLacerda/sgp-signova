@@ -1,0 +1,210 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="15C07D24-FE8D-5762-AB26-D1D3A44000D9" name="T VENDA">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-08 00:15:00 UTC</createdTime>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<engineerTo>
+<item key="91C74380-3DAB-AE4B-B329-28992BABC9B5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="protocolo syngular" id="004B30A8-5AA3-C5D8-1222-BD077E127C8F">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-08 00:15:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Protocolo Syngular]]></commentInRDBMS>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<engineerTo>
+<item key="91C74380-3DAB-AE4B-B329-28992BABC9B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="T PARCEIRO id parceiro" id="6D7842C5-4590-22C2-E4BF-2C39DDC9D140">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:31:37 UTC</createdTime>
+<generatorID>D58C1F9A-AAC0-77FD-AF23-006F7C018011</generatorID>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<engineerTo>
+<item key="91C74380-3DAB-AE4B-B329-28992BABC9B5" value="true"/>
+</engineerTo>
+<referedAttribute>5638B0CA-001D-6F41-3165-9B4F736A7B80</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="T CLIENTE id cliente" id="7363F13B-A061-2DE9-328F-3BD0840A460D">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-08 12:46:15 UTC</createdTime>
+<generatorID>88D4D1D7-2237-5D9A-55DA-A56E35A33837</generatorID>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<engineerTo>
+<item key="91C74380-3DAB-AE4B-B329-28992BABC9B5" value="true"/>
+</engineerTo>
+<referedAttribute>C06FB495-C16C-534C-40DE-12C15DEC621D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="T CERTIFICADO id certificado" id="4177EF19-8C7E-1DA5-822E-F2BA7EF094A0">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-08 12:09:04 UTC</createdTime>
+<generatorID>0AC07167-DE4D-27F6-6252-8EF046A41EEA</generatorID>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<engineerTo>
+<item key="91C74380-3DAB-AE4B-B329-28992BABC9B5" value="true"/>
+</engineerTo>
+<referedAttribute>AF43D847-5796-173C-5263-BD5761CAFA1D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="T FECHAMENTO id fechamento" id="3FA8A28E-71ED-8A25-2975-091DC7A901D4">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-08 23:12:49 UTC</createdTime>
+<generatorID>5C623DB6-9C25-2C41-0927-235AD434D18E</generatorID>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<engineerTo>
+<item key="91C74380-3DAB-AE4B-B329-28992BABC9B5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>FF40C3DB-83BA-E3AF-3D2D-BF20A71B43A8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="T EMPRESA id empresa" id="A2C1B99F-444F-85F3-33E0-24E07C9D17F5">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-08 23:54:44 UTC</createdTime>
+<generatorID>05D3B4A7-BAA0-FEDD-933B-DE73E04686F1</generatorID>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<engineerTo>
+<item key="91C74380-3DAB-AE4B-B329-28992BABC9B5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>D68B4F91-87F6-377D-5C56-48399F7611E5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="T LOTE id lote" id="A864C64F-8942-6CDA-8484-908C4E4172EE">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:31:57 UTC</createdTime>
+<generatorID>6D741235-5943-7BB7-0B82-3EC4DB49B17B</generatorID>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<engineerTo>
+<item key="91C74380-3DAB-AE4B-B329-28992BABC9B5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>EE891946-32B8-8978-B4C9-0B3167F2FD05</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pedido venda" id="4243B11B-D78B-DFA1-DF4C-796E3D8007BA">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-08 00:15:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[Pedido CCN, não será obrigátorio pq se mudar de AR o pedido será de outra AR]]></commentInRDBMS>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<engineerTo>
+<item key="91C74380-3DAB-AE4B-B329-28992BABC9B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vlr vendido" id="8F1CD742-23E1-9781-6FB2-7B5F6AC3CA31">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-08 00:16:50 UTC</createdTime>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<engineerTo>
+<item key="91C74380-3DAB-AE4B-B329-28992BABC9B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="forma de pagamento" id="543C4C17-E2AA-A323-8B1F-0C067F5FEDCD">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-08 00:17:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[Formas de pagamento CREDITO; PIX;  BOLETO]]></commentInRDBMS>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<engineerTo>
+<item key="91C74380-3DAB-AE4B-B329-28992BABC9B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt compra" id="82E18B6D-D395-B66D-E98B-67D2B903DF62">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-08 00:20:11 UTC</createdTime>
+<comment><![CDATA[Data da compra do certificado]]></comment>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<engineerTo>
+<item key="91C74380-3DAB-AE4B-B329-28992BABC9B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id parceiro" id="06F65234-3E09-5DF9-7636-93DC3E4F2812">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-17 23:27:30 UTC</createdTime>
+<generatorID>6D741235-5943-7BB7-0B82-3EC4DB49B17B</generatorID>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<engineerTo>
+<item key="91C74380-3DAB-AE4B-B329-28992BABC9B5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>5EECD92F-01D9-71BE-F5D2-ED7EE52FA883</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2BAE328C-2D80-A57C-5104-87244345F996" name="T_VENDA_PK">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-08 00:15:26 UTC</createdTime>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="91C74380-3DAB-AE4B-B329-28992BABC9B5" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>004B30A8-5AA3-C5D8-1222-BD077E127C8F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

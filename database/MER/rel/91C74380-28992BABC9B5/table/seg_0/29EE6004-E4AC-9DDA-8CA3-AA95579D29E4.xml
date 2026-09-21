@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="29EE6004-E4AC-9DDA-8CA3-AA95579D29E4" name="T_FECHAMENTO">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<generatorID>CDC177FE-138E-C688-7E33-4AD13A9CBB8F</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_fechamento" id="C7C925E8-9617-18BD-A60B-F982B0247E0A">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador de cada fechamento]]></commentInRDBMS>
+<generatorID>FF40C3DB-83BA-E3AF-3D2D-BF20A71B43A8</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_parceiro" id="EDEA8A84-F90A-4757-1658-FCD9094C6C57">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<generatorID>46B0807F-D152-D7D6-9EA0-60D10277BE8E</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="68C4B1A4-3A1A-A3DA-E6E8-F7C7F3E0EE0D" referredColumn="D3C0F305-A434-DEFB-219A-9D31107C5018"/>
+</associations>
+</Column>
+<Column name="dt_pagamento_comissao" id="DE7CB505-17FB-2EC5-CE4C-185AA7E7DAC3">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Dia do pagamento da comissão]]></commentInRDBMS>
+<generatorID>E248D6F0-4645-EFEE-504D-4ADF7BF7080A</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_pago" id="72DF1A4A-5212-AF4F-CFE9-4F4EAF2AD11D">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Valor pago para contabilidade ]]></commentInRDBMS>
+<generatorID>F1110AC8-E023-6C0A-2EA8-AF0E97D2863B</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tp_parceria" id="4140551F-CF9C-677A-D2C2-A9D4E7949584">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[COMISSÃO; REVENDA; REPASSE; LOTE]]></commentInRDBMS>
+<generatorID>AAE690F4-3C11-8D19-B64C-C1B89E253899</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="736077B4-0B7D-94CD-EF00-97749E06168E" name="T_FECHAMENTO_PK">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<generatorID>2EFF3A54-3F0D-2682-CD85-7ED62BA408BF</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7C925E8-9617-18BD-A60B-F982B0247E0A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A04C52C7-25EA-6FA4-208D-17526ADCB94D" name="FK_T_FECHAMENTO_PARCEIRO">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<generatorID>D44E979E-2941-245D-3935-3658CEC4FFB3</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EDEA8A84-F90A-4757-1658-FCD9094C6C57"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_T_FECHAMENTO_PARCERIA" directorySegmentName="seg_0" id="5047F2E1-211B-CEF3-A0EF-51F248044FB7">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:55:58 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<rule><![CDATA[tp_parceria IN ('COMISSAO','REVENDA','REPASSE','LOTE')]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_T_FECHAMENTO_PAGO" directorySegmentName="seg_0" id="87C9952C-B121-2D3D-A31B-677388ED3DA8">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-18 00:09:06 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<rule><![CDATA[vl_pago >= 0]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

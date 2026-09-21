@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="MER_SGP" id="72F1BBA3-F464-59C1-BA93-0365D1E7B022" version="3.5">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-07 23:59:40 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>72F1BBA3-F464-59C1-BA93-0365D1E7B022</designId>
+</OSDM_Design>

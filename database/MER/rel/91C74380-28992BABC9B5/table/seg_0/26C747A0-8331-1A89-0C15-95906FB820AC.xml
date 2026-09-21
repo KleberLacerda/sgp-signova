@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="26C747A0-8331-1A89-0C15-95906FB820AC" name="T_EMPRESA">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<generatorID>9B441F17-5456-8A5D-FAA7-3E4D257FA727</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_empresa" id="146BA4D8-A4E6-06CD-EAF2-5B22F0CB645A">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador padrão]]></commentInRDBMS>
+<generatorID>D68B4F91-87F6-377D-5C56-48399F7611E5</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_cliente" id="20545EC0-DCD9-F879-5B87-B74E8303FDFA">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<generatorID>DA3E5D7E-D2CD-6ED8-AE90-9793E13F0D7E</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D9C47A1B-98FF-E545-8F09-D95046D5D43A" referredColumn="C7DD8A37-A1B7-F2F0-5FA8-6A07B914DEDA"/>
+</associations>
+</Column>
+<Column name="nr_cnpj" id="2B4849BA-455E-8D93-11D2-D4BA249148C8">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Número do CNPJ]]></commentInRDBMS>
+<generatorID>D20702AE-B689-AC7D-AE03-7EE1668D59C4</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_razao_social" id="EECD8F3F-1C0C-B258-29A8-29BB47BDFD23">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome da empresa na Receita Federal]]></commentInRDBMS>
+<generatorID>9361D9F8-C1F4-51B0-9F84-1190B213EFE8</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="072F2C7B-D630-10F7-9976-4D702A1A6340" name="T_EMPRESA_PK">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<generatorID>65BBF489-92CA-5A26-06E7-2735704564CF</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="146BA4D8-A4E6-06CD-EAF2-5B22F0CB645A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8F810B3E-BE90-B727-A39B-D40BEE37F9BA" name="UN_T_EMPRESA_CNPJ">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<generatorID>C0E9C3D4-B1F0-52DC-589F-5FE7DB76170F</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B4849BA-455E-8D93-11D2-D4BA249148C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F46AD264-1108-36EF-4519-99A95F2FA7C6" name="FK_T_EMPRESA_CLIENTE">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<generatorID>A2EDE7C8-7A06-D374-F1FA-5FB8A7407FED</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20545EC0-DCD9-F879-5B87-B74E8303FDFA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_T_EMPRESA_CNPJ" directorySegmentName="seg_0" id="D0295851-C944-08DC-24BB-23D3554F67D3">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-17 23:36:17 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<rule><![CDATA[REGEXP_LIKE(nr_cnpj, '^([0-9]{14})$')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

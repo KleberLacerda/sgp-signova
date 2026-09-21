@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2682A51E-E85D-5615-C5DA-58939046B9BD" name="T_CERTIFICADO">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<generatorID>7CEFF3BF-C6A9-949B-F819-372869CDF8D5</generatorID>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_certificado" id="1F02DAA3-73B6-3AE3-4EBA-C19E41D418D6">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[ID]]></commentInRDBMS>
+<generatorID>AF43D847-5796-173C-5263-BD5761CAFA1D</generatorID>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tp_modelo" id="4EE03028-6D58-C772-C39D-51D009C2E4AD">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tipo do modelo do certificado A1 ou A3]]></commentInRDBMS>
+<generatorID>76F22A4F-4BBB-0952-B455-0889F5146A3B</generatorID>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_validade" id="E6AC53CC-FB4A-BE0C-9CAA-B10FE14E6235">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Duração da validade em meses]]></commentInRDBMS>
+<generatorID>1FF1ACB8-908C-7D32-42DA-4EB7D0B6633D</generatorID>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tp_pessoa" id="D3F385D7-3F9F-F9E4-22C6-CA7AE3F9CD25">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tipo ECPF ou ECNPJ]]></commentInRDBMS>
+<generatorID>D43298D7-8685-4527-C3D4-11914F1BA6FD</generatorID>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8BEF7618-55BB-2479-2A8D-7CFFEBFEDF55" name="T_CERTIFICADO_PK">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:35:00 UTC</createdTime>
+<generatorID>316D5FB7-5FA2-A6B4-F72E-9F5ED4C91A07</generatorID>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F02DAA3-73B6-3AE3-4EBA-C19E41D418D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_TIPO_CERTIFICADO" directorySegmentName="seg_0" id="005DC600-D611-8468-31E8-9201E63F0584">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:36:16 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<rule><![CDATA[tp_pessoa IN ('F','J')]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_MODELO_CERTIFICADO" directorySegmentName="seg_0" id="4824B5B3-9C6A-1420-B451-FF5F4157CEF1">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-09 00:44:16 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<rule><![CDATA[tp_modelo IN ('A1','A3','SYN')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

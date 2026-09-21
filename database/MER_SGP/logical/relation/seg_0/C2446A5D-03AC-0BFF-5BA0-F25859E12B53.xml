@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK REPASSE PARCEIRO" directorySegmentName="seg_0" id="C2446A5D-03AC-0BFF-5BA0-F25859E12B53">
+<createdBy>MADU</createdBy>
+<createdTime>2026-09-08 23:42:08 UTC</createdTime>
+<ownerDesignName>MER_SGP</ownerDesignName>
+<engineerTo>
+<item key="91C74380-3DAB-AE4B-B329-28992BABC9B5" value="true"/>
+</engineerTo>
+<sourcePk>9EF4517A-7253-73DE-BF96-60FCAC6C311C</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6455AECF-303E-851B-EFD8-A077F3BFACE8</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>A132AF30-DFFD-E322-5B8C-B43958CF202D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
